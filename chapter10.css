@@ -48,3 +48,17 @@ main {
 	background-size: cover;
 	background-position: center;
 }
+@media screen and (max-width: 768px) {
+	main {
+		width: 90%;
+		margin: 50px auto;
+	}
+	.step {
+		width: 100%;
+		margin: 0;
+		display: block;
+	}
+	.step:nth-child(2) {
+		margin: 20px 0; 
+	}
+}
